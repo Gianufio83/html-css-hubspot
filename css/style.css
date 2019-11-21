@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background-color: purple;  */
+}
+.page-header {
+  height: 600px;
+  background-color: pink;
+  background-image: url("../img/img/jumbotron.png");
+  background-size: 100%;
+  background-position: riht bottom;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.prima-intestazione {
+  width: 85%;
+  margin: 0 auto;
+  /* height: 60px; */
+  background-color: lightblue;
+  line-height: 50px;
+
+}
+.prima-intestazione:after {
+  content:"";
+  display: table;
+  clear:both;
+}
+.lista-sinistra {
+  float: left;
+  width: 60%;
+  height: 100%;
+  /* background-color: orange; */
+}
+.lista-destra {
+  float: right;
+  width: 40%;
+  height: 100%;
+  text-align: right;
+  /* background-color: yellow; */
+}
+.primi-due-link {
+  list-style: none;
+}
+.primi-due-link li {
+  display: inline;
+  padding: 0 5px;
+  text-decoration: none;
+}
+.primi-due-link a {
+  color:rgb(37, 37, 35);
+  font-size: 18px;
+}
+.float-right-nav ul li {
+  float: right;
+}
+a.button {
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 22px;
+}
+a.button:hover,
+a.button:active,
+a.button:focus {
+  color: #fff;
+}
+a.button-orange {
+  background-color: rgb(236, 139, 38);
+}
+a.button-big {
+  padding: 20px 20px;
+}
+a.button-border {
+  padding: 5px 20px;
+  border: 1px solid #4e8cb6;
+}
+.seconda-intestazione {
+  width: 85%;
+  margin: 0 auto;
+  height: 60px;
+  background-color: white;
+  line-height: 50px;
+}
+.bannerone {
+  position: relative;
+  width: 85%;
+  height: 550px;
+  margin: 0 auto;
+}
+.testo-bannerone {
+  position: absolute;
+  top:50%;
+  left:0;
+  transform: translateY(-50%);
+  width: 50%;
+  color: #000;
+  font-size: 20px;
+  /* margin-top: 15px; */
+
+}
+.testo-bannerone p {
+  color:rgb(62, 58, 56);
+  margin: 0 auto;
+  line-height: 24px;
+  padding: 10px 0;
+
+}
+.sottotitolo {
+  font-size: 10px;
+  line-height: 2px;
+}
