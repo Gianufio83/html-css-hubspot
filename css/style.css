@@ -5,6 +5,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: #33475b;
   /* background-color: purple;  */
 }
 .page-header {
@@ -12,13 +13,16 @@ body {
   background-color: pink;
   background-image: url("../img/img/jumbotron.png");
   background-size: 100%;
-  background-position: riht bottom;
+  background-position: right bottom;
   background-repeat: no-repeat;
   color: #fff;
 }
-.prima-intestazione {
+.container {
   width: 85%;
   margin: 0 auto;
+}
+.prima-intestazione {
+
   /* height: 60px; */
   background-color: rgb(163, 229, 244);
   line-height: 50px;
@@ -54,6 +58,9 @@ body {
   color:rgba(23, 21, 22, 0.91);
   font-size: 14px;
 }
+/* .class fas fa-globe {
+  margin-left: 20px;
+} */
 .bordo-laterale {
   border-left: 2px solid grey;
   margin-right: 10px;
@@ -83,11 +90,9 @@ a.button-big {
 }
 a.button-border {
   padding: 5px 20px;
-  border: 1px solid #4e8cb6;
+  border: 1px solid orange;
 }
 .seconda-intestazione {
-  width: 85%;
-  margin: 0 auto;
   height: 60px;
   background-color: white;
   line-height: 50px;
@@ -96,6 +101,9 @@ a.button-border {
   content:"";
   display: table;
   clear:both;
+}
+.posizionamento-logo {
+  vertical-align: middle;
 }
 .logo {
   float: left;
@@ -123,17 +131,17 @@ a.button-border {
   top:50%;
   left:0;
   transform: translateY(-50%);
-  width: 50%;
+  width: 30%;
   color: #000;
   font-size: 20px;
-  /* margin-top: 15px; */
+  /* margin-bottom: 10px; */
 
 }
 .testo-bannerone p {
   color:rgb(62, 58, 56);
-  margin: 0 auto;
+  margin: 20px auto;
   line-height: 24px;
-  padding: 10px 0;
+  /* padding: 10px 0; */
 
 }
 .sottotitolo {
@@ -144,13 +152,28 @@ a.button-border {
   /* background-color: green; */
   width: 100%;
 }
+.prima-sezione {
+  width: 100%;
+  background-color: #f5f8fa;
+  padding: 100px 0 50 px;
+}
+.container2 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
 .logo-prima-sezione {
   height: 150px;
-  text-align: center;
+  margin-top: 50px;
+  /* text-align: center; */
   /* padding: 30px; */
   }
-.logo-prima-sezione h2 p {
-  color: grey;
-  margin-top: 5px;
-  text-align: center;
+.container2 h2 {
+  color: grey bold;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+.container2 p {
+  margin-top: 20px;
+  font-size: 20px;
 }
