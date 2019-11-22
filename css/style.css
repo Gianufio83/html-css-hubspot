@@ -260,3 +260,34 @@ a.button-border {
 .checklist li {
   display:inline;
 }
+.terza-sezione {
+  width: 100%;
+  background-color: rgb(191, 242, 236);
+}
+.contenitore-centrale:after {
+  content: "";
+  display:table;
+  clear:both;
+}
+.float {
+  float:left;
+}
+.col-destra {
+  width: 31%;
+  /* background-color: red; */
+
+}
+.col-centrale {
+  width: 30%;
+  margin: 0 2%;
+  background-color: yellow;
+}
+.col-sinistra {
+  width: 31%;
+  background-color: orange;
+}
+.img-box1 {
+  height: 180px;
+  margin: 80px 80px;
+  /* vertical-align: middle; */
+}
