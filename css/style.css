@@ -246,7 +246,17 @@ a.button-border {
 .barra-spaziatrice {
   float: right;
   width: 42%;
-}
-.spessore-barra {
   border: 1px solid grey;
+}
+.lista-check {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+.checklist {
+  list-style: none;
+}
+.checklist li {
+  display:inline;
 }
