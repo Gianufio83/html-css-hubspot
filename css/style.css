@@ -488,7 +488,7 @@ a.button-centrale {
   padding: 5px;
   }
 
-.sesta-sezione::after {
+.container-scritta-immagini::after {
   content: "";
   display: table;
   clear: both;
@@ -496,7 +496,7 @@ a.button-centrale {
 .contenitore-dimensionato-destro {
   float:left;
   width: 30%;
-  margin-top: 140px;
+  margin-top: 100px;
 }
 .contenitore-dimensionato-sinistro {
   float:right;
@@ -508,7 +508,7 @@ a.button-centrale {
   font-weight: bold;
 }
 .contenitore-dimensionato-destro p {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   margin-bottom: 40px;
   /* text-align: left; */
 }
@@ -517,11 +517,11 @@ a.button-centrale {
   margin: auto;
   /* padding-top:-100px; */
 }
-.contenitore-dimensionato-sinistro {
+/* .contenitore-dimensionato-sinistro {
   content: "";
   display:table;
   clear:both;
-}
+} */
 .logo-atlassian {
   height: 15px;
   margin: 15px 25px;
@@ -562,3 +562,10 @@ a.button-centrale {
   margin: 15px 25px;
   vertical-align: middle;
 }
+.settima-sezione {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  }
