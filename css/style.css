@@ -343,7 +343,7 @@ a.button-centrale {
 }
 .quarta-sezione {
   width: 100%;
-  background-color: #0091ae;
+  background-color: #00BDA5;
   padding: 100px 0 50 px;
 }
 .container3 {
@@ -357,10 +357,121 @@ a.button-centrale {
   padding-top: 30px;
   line-height: 40px;
 }
-
 .container3 p {
   font-size: 15px thin;
   color: white;
   /* width: 100%; */
   padding-top: 30px;
 }
+.quinta-sezione {
+  width: 100%;
+  background-color: #00BDA5;
+  /* padding: 100px 0 50 px; */
+}
+.terza-sezione {
+  width: 100%;
+  background-color: #f5f8fa;
+  margin-bottom: 80px;
+}
+.contenitore-centrale {
+  width: 85%;
+  margin: auto;
+}
+.contenitore-centrale:after {
+  content: "";
+  display:table;
+  clear:both;
+}
+.float {
+  float:left;
+}
+.col-destra-1 {
+  width: 21.3%;
+  padding: 50px 50px;
+  border-right: 1px solid white;
+  margin-top: 30px;
+  text-align: center;
+}
+.col-centrale-A {
+  width: 21.3%;
+  padding: 50px 50px;
+  border-left: 1px solid white;
+  margin-top: 30px;
+  text-align: center;
+}
+.col-centrale-B {
+  width: 21.3%;
+  padding: 50px 50px;
+  border-left: 1px solid white;
+  margin-top: 30px;
+  text-align: center;
+}
+.col-sinistra-2 {
+  width: 21.3%;
+  padding: 50px 50px;
+  border-left: 1px solid white;
+  margin-top: 30px;
+  text-align: center;
+}
+.stretta-di-mano {
+  height: 30px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+/* .linea-di-spazio-2 {
+  border: 0.2px solid white;
+  margin-top: 60px;
+  padding: 0 10px;
+} */
+.sottotesto-stretta-mano {
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.col-destra-1 p {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: white;
+}
+.hubspot-blogs {
+  height: 35px;
+  margin: 15px 15px;
+  vertical-align: middle;
+}
+.scritta-blog {
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  /* margin-bottom: 5px; */
+}
+.col-centrale-A p {
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: 28px;
+  color: white;
+}
+.Hubspot-academy {
+  height: 30px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+.col-centrale-B p {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: white;
+}
+.inbound {
+  height: 30px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+.col-sinistra-2 p {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: white;
