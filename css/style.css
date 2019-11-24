@@ -598,3 +598,12 @@ a.button-centrale {
 .foto-donna {
   height: 450px;
 }
+.ottava-sezione {
+  width: 100%;
+  background-color: #33475b;
+  color: #fff;
+}
+.contenitore-elementi-footer {
+  width: 85%;
+  margin: auto;
+}
