@@ -341,3 +341,26 @@ a.button-centrale {
   background-color: rgb(236, 139, 38);
   vertical-align: middle;
 }
+.quarta-sezione {
+  width: 100%;
+  background-color: #0091ae;
+  padding: 100px 0 50 px;
+}
+.container3 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+.container3 h2 {
+  font-size: 25px bold;
+  color:white;
+  padding-top: 30px;
+  line-height: 40px;
+}
+
+.container3 p {
+  font-size: 15px thin;
+  color: white;
+  /* width: 100%; */
+  padding-top: 30px;
+}
