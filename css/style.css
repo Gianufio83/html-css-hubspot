@@ -120,7 +120,7 @@ a.button-border {
 .bannerone {
   position: relative;
   width: 85%;
-  height: 550px;
+  height: 450px;
   margin: 0 auto;
 }
 .testo-bannerone {
@@ -129,13 +129,14 @@ a.button-border {
   left:0;
   transform: translateY(-50%);
   width: 30%;
-  color: #000;
+  color: #00BDA5;
   font-size: 20px;
+  margin-bottom: 60px;
   /* margin-bottom: 10px; */
 
 }
 .testo-bannerone p {
-  color:rgb(62, 58, 56);
+  color:#00BDA5;
   margin: 20px auto;
   line-height: 24px;
   /* padding: 10px 0; */
@@ -144,7 +145,7 @@ a.button-border {
 .sottotitolo {
   font-size: 10px;
   line-height: 2px;
-}
+  }
 .page-main {
   /* background-color: green; */
   width: 100%;
@@ -153,6 +154,7 @@ a.button-border {
   width: 100%;
   background-color: #f5f8fa;
   padding: 100px 0 50 px;
+  margin-bottom: 20px;
 }
 .container2 {
   width: 85%;
@@ -173,6 +175,7 @@ a.button-border {
 .container2 p {
   margin-top: 20px;
   font-size: 20px;
+  padding-bottom: 40px;
 }
 .seconda-sezione {
   width: 100%;
@@ -475,3 +478,87 @@ a.button-centrale {
   margin-bottom: 10px;
   margin-top: 15px;
   color: white;
+}
+
+.sesta-sezione {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  }
+
+.sesta-sezione::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contenitore-dimensionato-destro {
+  float:left;
+  width: 30%;
+  margin-top: 140px;
+}
+.contenitore-dimensionato-sinistro {
+  float:right;
+  width: 70%;
+  /* height: 100%; */
+}
+.numero {
+  font-size: 40px;
+  font-weight: bold;
+}
+.contenitore-dimensionato-destro p {
+  padding-top: 20px;
+  margin-bottom: 40px;
+  /* text-align: left; */
+}
+.contenitore-dimensionto-sinistro {
+  width: 70%;
+  margin: auto;
+  /* padding-top:-100px; */
+}
+.contenitore-dimensionato-sinistro {
+  content: "";
+  display:table;
+  clear:both;
+}
+.logo-atlassian {
+  height: 15px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+.logo-subaru {
+  height: 40px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+.logo-doordash {
+  height: 20px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+.logo-wistia {
+  height: 20px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+.logo-crowd {
+  height: 20px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+.logo-classpass {
+  height: 40px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+.logo-purple {
+  height: 20px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
+.logo-wmware {
+  height: 20px;
+  margin: 15px 25px;
+  vertical-align: middle;
+}
