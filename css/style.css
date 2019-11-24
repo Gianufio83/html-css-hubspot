@@ -569,3 +569,32 @@ a.button-centrale {
   margin-bottom: 10px;
   padding: 5px;
   }
+/* .contenitore-destro {
+    width: 50%;
+    margin: auto;
+  } */
+.start-growing {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align:center;
+  /* width: 85%; */
+  /* padding-bottom: 20px; */
+}
+.today {
+  font-size: 25px;
+  font-weight: bold;
+  /* text-align:center; */
+  margin:auto;
+  padding-bottom: 20px;
+}
+.with-tools {
+  margin-bottom: 20px;
+}
+.get-started {
+  font-size: 2px thin grey;
+  margin-top: 30px;
+}
+.foto-donna {
+  height: 450px;
+}
