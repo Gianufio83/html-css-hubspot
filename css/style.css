@@ -55,8 +55,8 @@ body {
   text-decoration: none;
 }
 .primi-due-link a {
-  color:rgba(23, 21, 22, 0.91);
-  font-size: 14px;
+  color:rgb(76, 83, 78);
+  font-size: 14px bold;
 }
 /* .class fas fa-globe {
   margin-left: 20px;
@@ -129,14 +129,14 @@ a.button-border {
   left:0;
   transform: translateY(-50%);
   width: 30%;
-  color: #00BDA5;
+  color: rgb(76, 83, 78);
   font-size: 20px;
   margin-bottom: 60px;
   /* margin-bottom: 10px; */
 
 }
 .testo-bannerone p {
-  color:#00BDA5;
+  color:rgb(76, 83, 78);
   margin: 20px auto;
   line-height: 24px;
   /* padding: 10px 0; */
@@ -594,16 +594,61 @@ a.button-centrale {
 .get-started {
   font-size: 2px thin grey;
   margin-top: 30px;
+  margin-bottom: 160px;
 }
 .foto-donna {
   height: 450px;
 }
 .ottava-sezione {
   width: 100%;
-  background-color: #33475b;
-  color: #fff;
+  /* background-color: #33475b; */
+  /* color: #fff; */
 }
-.contenitore-elementi-footer {
+.lista-footer {
+  list-style: none;
+}
+.contenitore-elenco-footer {
+  width: 100%;
+  margin: auto;
+  background-color:#33475b;
+  /* text-align: center; */
+}
+.lista-footer li:first-child {
+  color:black;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.lista-footer li {
+  font-size: 15px;
+  margin: 10px 0;
+  line-height: 20px;
+}
+.lista-footer li:hover {
+  color: blue;
+}
+.lista-icone-social {
+  list-style: none;
+}
+.lista-icone-social li {
+  display:inline;
+  padding: 0 3px;
+}
+.lista-icone-social li:hover {
+  color: blue;
+}
+/* .contenitore-lingue {
   width: 85%;
   margin: auto;
+  background-color:#33475b;
+  text-align: center;
+} */
+.lista-lingue {
+  list-style: none;
+}
+.lista-lingue li {
+  display: inline;
+}
+.linea-separazione-contatti {
+  border: 1px solid grey;
 }
